@@ -1,1 +1,2 @@
-> Fork deze leertaak en ga aan de slag, de instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+Dit is hoe mijn visitekaartje er tot nu toe uit ziet!
+https://eliza.student.fdnd.nl/
