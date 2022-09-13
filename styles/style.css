@@ -8,24 +8,22 @@ html {
 
 body {
   height: 100vh;
-  font-family: "Montserrat";
+  font-family: "Manrope";
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ec8195;
   text-align: center;
-  background-color: #ffecff;
 }
 
 article {
   width: 50vw;
-  max-width: 25em;
-  min-width: 20em;
+  max-width: 40em;
+  min-width: 35em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background: #fff5f3;
+  background: #f8eedf;
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   position: relative;
@@ -42,10 +40,10 @@ header {
 
 h1 {
   margin: 5rem 0 1rem;
-  color: #ec8195;
   text-align: center;
   font-size: 30px;
   letter-spacing: 2px;
+  font-family: "Caudex";
 }
 
 button {
@@ -82,10 +80,7 @@ button svg:nth-of-type(2) {
 }
 
 .img {
-  width: 10em;
-  border-radius: 10em;
-  border: 1px solid #fff;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  width: 500px;
   position: absolute;
   top: 2rem;
   transition: 0.1s 0.1s;
@@ -97,7 +92,7 @@ button svg:nth-of-type(2) {
 
 dl {
   width: 100%;
-  background: #fff5f3;
+  background: #f8eedf;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -118,7 +113,7 @@ dt {
   padding-top: 0.25rem;
   margin-top: 0.25rem;
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
 }
 dt:nth-of-type(1) {
   grid-area: html-dt;
@@ -140,8 +135,9 @@ dd {
 
 p {
   margin-top: 0;
-  font-size: 13px;
+  font-size: 15px;
   text-align: left;
+  border: 0.75px solid #000;
 }
 
 article > p {
@@ -157,9 +153,9 @@ body.expand {
 }
 
 body.expand article {
-  width: 750px;
-
+  width: 800px;
   max-width: 60vw;
+  min-width: 40vw;
 }
 
 body.expand button svg:first-of-type {
@@ -178,7 +174,7 @@ body.expand dd {
 }
 
 body.expand img {
-  width: 15em;
+  width: 600px;
 }
 
 body.expand .titel {
@@ -187,24 +183,30 @@ body.expand .titel {
   margin-top: 12vh;
 }
 
-body.expand .intro {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  height: 230px;
-  padding-right: 220px;
-  padding-top: 10px;
-  padding-left: 30px;
-  width: 480px;
+body.expand p {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  height: 186.5px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-top: 430px;
+  margin-left: 85px;
+  margin-right: 85px;
+  width: 541.5px;
 
-  width: 710px;
   position: relative;
-  left: 20px;
+  left: -190px;
+  top: 60px;
+}
+
+body.expand .intro {
+  height: 230px;
+  width: 330px;
+
+  position: relative;
 }
 
 body.expand .foot {
-  padding-top: 0px;
-  margin-top: 0px;
-  padding-right: 20px;
-  border-left-width: 20px;
-  padding-left: 20px;
+  margin-top: 450px;
 }
